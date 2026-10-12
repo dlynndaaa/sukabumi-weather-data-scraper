@@ -1,2 +1,17 @@
-# sukabumi-weather-data-scraper
-Automated weather data extraction for 47 sub-districts in Sukabumi Regency (2020–2025) using Open-Meteo Archive API.
+# Sukabumi Weather Data Scraper
+An automated Python script to extract daily historical weather data for all 47 sub-districts in Sukabumi Regency from 2020 to 2025 using the Open-Meteo Historical Weather API.
+
+## Coverage & Parameters
+- Region: 47 Sub-districts in Sukabumi Regency, West Java, Indonesia.
+- Time Range: January 1, 2020 – December 31, 2025.
+- Weather Variables:
+  * `temperature_2m_mean`: Daily mean temperature (°C)
+  * `precipitation_sum`: Daily precipitation total (mm)
+  * `relative_humidity_2m_mean`: Daily mean relative humidity (%)
+  * `wind_speed_10m_max`: Maximum wind speed at 10 meters (km/h)
+
+## Installation & Usage
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/](https://github.com/)<your-username>/sukabumi-weather-data-scraper.git
+   cd sukabumi-weather-data-scraper
