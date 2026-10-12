@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Data output (mencegah file CSV besar terunggah)
+data/*.csv
+*.csv
+
+# Environment
+.env
+venv/
+.ipynb_checkpoints/
