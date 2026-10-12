@@ -13,5 +13,12 @@ An automated Python script to extract daily historical weather data for all 47 s
 ## Installation & Usage
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/](https://github.com/)<your-username>/sukabumi-weather-data-scraper.git
+   git clone https://github.com/dlynndaaa/sukabumi-weather-data-scraper.git
    cd sukabumi-weather-data-scraper
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Run the scraper:
+   ```bash
+   python src/scraper.py
+ The annual CSV files will be saved automatically in the data/ directory.
