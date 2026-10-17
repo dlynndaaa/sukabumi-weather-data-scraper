@@ -6,14 +6,22 @@
 
 An automated Python script to extract daily historical weather data for all 47 sub-districts in Sukabumi Regency from 2020 to 2025 using the Open-Meteo Historical Weather API.
 
-## Coverage & Parameters
-- Region: 47 Sub-districts in Sukabumi Regency, West Java, Indonesia.
-- Time Range: January 1, 2020 – December 31, 2025.
-- Weather Variables:
-  * `temperature_2m_mean`: Daily mean temperature (°C)
-  * `precipitation_sum`: Daily precipitation total (mm)
-  * `relative_humidity_2m_mean`: Daily mean relative humidity (%)
-  * `wind_speed_10m_max`: Maximum wind speed at 10 meters (km/h)
+## 📊 Sample Data Output (CSV)
+The script generates annual CSV files saved automatically in the `data/` directory. Here is a preview of the extracted data structure:
+<img width="1524" height="221" alt="output-sample-weather-data" src="https://github.com/user-attachments/assets/569c139d-ff2f-4bd5-92ec-6a236f5550d5" />
+
+## 📍 Coverage & Parameters
+- **Region:** 47 Sub-districts in Sukabumi Regency, West Java, Indonesia.
+- **Time Range:** January 1, 2020 – December 31, 2025.
+- **Extracted Data Columns:**
+  - `kabupaten` & `nama_kecamatan` : Region identifiers
+  - `kode_kecamatan` : Official sub-district code
+  - `latitude` & `longitude` : Geospatial coordinates
+  - `time` : Date of the weather record
+  - `temperature_2m_mean (°C)` : Daily mean temperature
+  - `precipitation_sum (mm)` : Daily precipitation total
+  - `relative_humidity_2m_mean (%)` : Daily mean relative humidity
+  - `wind_speed_10m_max (km/h)` : Maximum wind speed at 10 meters
 
 ## Installation & Usage
 1. Clone the repository:
