@@ -1,4 +1,9 @@
-# Sukabumi Weather Data Scraper
+# ⛅ Sukabumi Weather Data Scraper
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![API](https://img.shields.io/badge/API-Open_Meteo-0078D4?style=for-the-badge)
+
 An automated Python script to extract daily historical weather data for all 47 sub-districts in Sukabumi Regency from 2020 to 2025 using the Open-Meteo Historical Weather API.
 
 ## Coverage & Parameters
