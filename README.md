@@ -35,3 +35,9 @@ The script generates annual CSV files saved automatically in the `data/` directo
    ```bash
    python src/scraper.py
  The annual CSV files will be saved automatically in the data/ directory.
+
+## 👤 Author
+**Delinda Mega Putri**
+- 🎓 Informatics Engineering, Universitas Muhammadiyah Sukabumi
+- 💼 [LinkedIn](https://www.linkedin.com/in/dlnmgp)
+- 📧 Email: delindamegaputri123@gmail.com
